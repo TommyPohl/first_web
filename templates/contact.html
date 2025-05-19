@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-{% include 'header.html' %}
+{% extends "base.html" %}
 
-<main>
+
+{% block content %}
   <h2>Contact page</h2>
-</main>
-<footer>
+{% endblock %}
 
-</footer>
-</body>
-</html>
+{% block aside %}
+  <h3>Aside block</h3>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<h3>product</h3>
+
+{% if magic %}
+  <h4>ID je liché</h4>
+{% else %}
+  <h4>ID je sudé</h4>
+{% endif %}
+
+{% endblock %}
